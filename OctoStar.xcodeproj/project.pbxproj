@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06838E60561046638AC23715 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B45D3D4CA54B6E9B10C612 /* libPods.a */; };
 		E71EE76C18E8F522009B7954 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71EE76B18E8F522009B7954 /* Cocoa.framework */; };
 		E71EE77618E8F522009B7954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E71EE77418E8F522009B7954 /* InfoPlist.strings */; };
 		E71EE77818E8F522009B7954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E71EE77718E8F522009B7954 /* main.m */; };
@@ -18,6 +19,13 @@
 		E71EE78C18E8F522009B7954 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71EE76B18E8F522009B7954 /* Cocoa.framework */; };
 		E71EE79418E8F522009B7954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E71EE79218E8F522009B7954 /* InfoPlist.strings */; };
 		E71EE79618E8F522009B7954 /* OctoStarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E71EE79518E8F522009B7954 /* OctoStarTests.m */; };
+		E71EE7A218E8FA20009B7954 /* OCTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71EE7A018E8FA20009B7954 /* OCTLoginViewController.m */; };
+		E71EE7A318E8FA20009B7954 /* OCTLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71EE7A118E8FA20009B7954 /* OCTLoginViewController.xib */; };
+		E78E9595197DDD1300C43F29 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = E78E9594197DDD1300C43F29 /* keys.plist */; };
+		E7FB268518EB265100F5DD0A /* SGZGitHubClientService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB268418EB265100F5DD0A /* SGZGitHubClientService.m */; };
+		E7FB268E18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB268C18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m */; };
+		E7FB268F18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7FB268D18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib */; };
+		E7FB269418EC669300F5DD0A /* SGZGitHubUserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB269318EC669300F5DD0A /* SGZGitHubUserViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33B45D3D4CA54B6E9B10C612 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4998A4DE5C934822B627C7A8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E71EE76818E8F522009B7954 /* OctoStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OctoStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71EE76B18E8F522009B7954 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E71EE76E18E8F522009B7954 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +60,18 @@
 		E71EE79118E8F522009B7954 /* OctoStarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctoStarTests-Info.plist"; sourceTree = "<group>"; };
 		E71EE79318E8F522009B7954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E71EE79518E8F522009B7954 /* OctoStarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctoStarTests.m; sourceTree = "<group>"; };
+		E71EE79F18E8FA20009B7954 /* OCTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTLoginViewController.h; sourceTree = "<group>"; };
+		E71EE7A018E8FA20009B7954 /* OCTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTLoginViewController.m; sourceTree = "<group>"; };
+		E71EE7A118E8FA20009B7954 /* OCTLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCTLoginViewController.xib; sourceTree = "<group>"; };
+		E78E9594197DDD1300C43F29 /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		E7FB268318EB265100F5DD0A /* SGZGitHubClientService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGZGitHubClientService.h; sourceTree = "<group>"; };
+		E7FB268418EB265100F5DD0A /* SGZGitHubClientService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGZGitHubClientService.m; sourceTree = "<group>"; };
+		E7FB268B18EBBA5200F5DD0A /* SGZGitHubAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGZGitHubAccountViewController.h; sourceTree = "<group>"; };
+		E7FB268C18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGZGitHubAccountViewController.m; sourceTree = "<group>"; };
+		E7FB268D18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGZGitHubAccountViewController.xib; sourceTree = "<group>"; };
+		E7FB269018EBC8CE00F5DD0A /* OctoStar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OctoStar.entitlements; sourceTree = "<group>"; };
+		E7FB269218EC669300F5DD0A /* SGZGitHubUserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGZGitHubUserViewModel.h; sourceTree = "<group>"; };
+		E7FB269318EC669300F5DD0A /* SGZGitHubUserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGZGitHubUserViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71EE76C18E8F522009B7954 /* Cocoa.framework in Frameworks */,
+				06838E60561046638AC23715 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +103,7 @@
 				E71EE78F18E8F522009B7954 /* OctoStarTests */,
 				E71EE76A18E8F522009B7954 /* Frameworks */,
 				E71EE76918E8F522009B7954 /* Products */,
+				4998A4DE5C934822B627C7A8 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +122,7 @@
 				E71EE76B18E8F522009B7954 /* Cocoa.framework */,
 				E71EE78A18E8F522009B7954 /* XCTest.framework */,
 				E71EE76D18E8F522009B7954 /* Other Frameworks */,
+				33B45D3D4CA54B6E9B10C612 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +140,10 @@
 		E71EE77118E8F522009B7954 /* OctoStar */ = {
 			isa = PBXGroup;
 			children = (
+				E7FB269118EC667400F5DD0A /* ViewModel */,
+				E7FB269018EBC8CE00F5DD0A /* OctoStar.entitlements */,
+				E7FB268218EB261300F5DD0A /* Services */,
+				E71EE7A418E8FA2D009B7954 /* UI */,
 				E71EE77D18E8F522009B7954 /* OCTAppDelegate.h */,
 				E71EE77E18E8F522009B7954 /* OCTAppDelegate.m */,
 				E71EE78018E8F522009B7954 /* MainMenu.xib */,
@@ -132,6 +161,7 @@
 				E71EE77718E8F522009B7954 /* main.m */,
 				E71EE77918E8F522009B7954 /* OctoStar-Prefix.pch */,
 				E71EE77A18E8F522009B7954 /* Credits.rtf */,
+				E78E9594197DDD1300C43F29 /* keys.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +184,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E71EE7A418E8FA2D009B7954 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E71EE79F18E8FA20009B7954 /* OCTLoginViewController.h */,
+				E71EE7A018E8FA20009B7954 /* OCTLoginViewController.m */,
+				E71EE7A118E8FA20009B7954 /* OCTLoginViewController.xib */,
+				E7FB268B18EBBA5200F5DD0A /* SGZGitHubAccountViewController.h */,
+				E7FB268C18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m */,
+				E7FB268D18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E7FB268218EB261300F5DD0A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB268318EB265100F5DD0A /* SGZGitHubClientService.h */,
+				E7FB268418EB265100F5DD0A /* SGZGitHubClientService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E7FB269118EC667400F5DD0A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB269218EC669300F5DD0A /* SGZGitHubUserViewModel.h */,
+				E7FB269318EC669300F5DD0A /* SGZGitHubUserViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E71EE79918E8F522009B7954 /* Build configuration list for PBXNativeTarget "OctoStar" */;
 			buildPhases = (
+				D96C18F8888744AF9F005378 /* Check Pods Manifest.lock */,
 				E71EE76418E8F522009B7954 /* Sources */,
 				E71EE76518E8F522009B7954 /* Frameworks */,
 				E71EE76618E8F522009B7954 /* Resources */,
+				F6C1E0E5EB4549309CBA677B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,10 +261,21 @@
 		E71EE76018E8F522009B7954 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = OCT;
+				CLASSPREFIX = SGZ;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Fabián Cañas";
 				TargetAttributes = {
+					E71EE76718E8F522009B7954 = {
+						DevelopmentTeam = AXL96AEQK3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
 					E71EE78818E8F522009B7954 = {
 						TestTargetID = E71EE76718E8F522009B7954;
 					};
@@ -231,10 +305,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78E9595197DDD1300C43F29 /* keys.plist in Resources */,
+				E7FB268F18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib in Resources */,
 				E71EE77618E8F522009B7954 /* InfoPlist.strings in Resources */,
 				E71EE78418E8F522009B7954 /* Images.xcassets in Resources */,
 				E71EE77C18E8F522009B7954 /* Credits.rtf in Resources */,
 				E71EE78218E8F522009B7954 /* MainMenu.xib in Resources */,
+				E71EE7A318E8FA20009B7954 /* OCTLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,13 +325,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D96C18F8888744AF9F005378 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C1E0E5EB4549309CBA677B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E71EE76418E8F522009B7954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7FB268518EB265100F5DD0A /* SGZGitHubClientService.m in Sources */,
 				E71EE77818E8F522009B7954 /* main.m in Sources */,
 				E71EE77F18E8F522009B7954 /* OCTAppDelegate.m in Sources */,
+				E7FB269418EC669300F5DD0A /* SGZGitHubUserViewModel.m in Sources */,
+				E71EE7A218E8FA20009B7954 /* OCTLoginViewController.m in Sources */,
+				E7FB268E18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,26 +498,36 @@
 		};
 		E71EE79A18E8F522009B7954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4998A4DE5C934822B627C7A8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OctoStar/OctoStar.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OctoStar/OctoStar-Prefix.pch";
 				INFOPLIST_FILE = "OctoStar/OctoStar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		E71EE79B18E8F522009B7954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4998A4DE5C934822B627C7A8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OctoStar/OctoStar.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OctoStar/OctoStar-Prefix.pch";
 				INFOPLIST_FILE = "OctoStar/OctoStar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -467,6 +591,7 @@
 				E71EE79B18E8F522009B7954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E71EE79C18E8F522009B7954 /* Build configuration list for PBXNativeTarget "OctoStarTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +600,7 @@
 				E71EE79E18E8F522009B7954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
