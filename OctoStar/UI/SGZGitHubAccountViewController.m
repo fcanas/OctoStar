@@ -11,10 +11,6 @@
 
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
-OBJC_ROOT_CLASS
-@interface FCZombie
-
-@end
 
 @interface SGZGitHubAccountViewController ()
 @property (nonatomic, strong) IBOutlet NSTextField *nameLabel;

@@ -1,608 +1,1416 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		06838E60561046638AC23715 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B45D3D4CA54B6E9B10C612 /* libPods.a */; };
-		E71EE76C18E8F522009B7954 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71EE76B18E8F522009B7954 /* Cocoa.framework */; };
-		E71EE77618E8F522009B7954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E71EE77418E8F522009B7954 /* InfoPlist.strings */; };
-		E71EE77818E8F522009B7954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E71EE77718E8F522009B7954 /* main.m */; };
-		E71EE77C18E8F522009B7954 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E71EE77A18E8F522009B7954 /* Credits.rtf */; };
-		E71EE77F18E8F522009B7954 /* OCTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E71EE77E18E8F522009B7954 /* OCTAppDelegate.m */; };
-		E71EE78218E8F522009B7954 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71EE78018E8F522009B7954 /* MainMenu.xib */; };
-		E71EE78418E8F522009B7954 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71EE78318E8F522009B7954 /* Images.xcassets */; };
-		E71EE78B18E8F522009B7954 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71EE78A18E8F522009B7954 /* XCTest.framework */; };
-		E71EE78C18E8F522009B7954 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71EE76B18E8F522009B7954 /* Cocoa.framework */; };
-		E71EE79418E8F522009B7954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E71EE79218E8F522009B7954 /* InfoPlist.strings */; };
-		E71EE79618E8F522009B7954 /* OctoStarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E71EE79518E8F522009B7954 /* OctoStarTests.m */; };
-		E71EE7A218E8FA20009B7954 /* OCTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71EE7A018E8FA20009B7954 /* OCTLoginViewController.m */; };
-		E71EE7A318E8FA20009B7954 /* OCTLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71EE7A118E8FA20009B7954 /* OCTLoginViewController.xib */; };
-		E78E9595197DDD1300C43F29 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = E78E9594197DDD1300C43F29 /* keys.plist */; };
-		E7FB268518EB265100F5DD0A /* SGZGitHubClientService.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB268418EB265100F5DD0A /* SGZGitHubClientService.m */; };
-		E7FB268E18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB268C18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m */; };
-		E7FB268F18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7FB268D18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib */; };
-		E7FB269418EC669300F5DD0A /* SGZGitHubUserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB269318EC669300F5DD0A /* SGZGitHubUserViewModel.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E71EE78D18E8F522009B7954 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E71EE76018E8F522009B7954 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E71EE76718E8F522009B7954;
-			remoteInfo = OctoStar;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		33B45D3D4CA54B6E9B10C612 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4998A4DE5C934822B627C7A8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		E71EE76818E8F522009B7954 /* OctoStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OctoStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E71EE76B18E8F522009B7954 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		E71EE76E18E8F522009B7954 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		E71EE76F18E8F522009B7954 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E71EE77018E8F522009B7954 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E71EE77318E8F522009B7954 /* OctoStar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctoStar-Info.plist"; sourceTree = "<group>"; };
-		E71EE77518E8F522009B7954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E71EE77718E8F522009B7954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E71EE77918E8F522009B7954 /* OctoStar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OctoStar-Prefix.pch"; sourceTree = "<group>"; };
-		E71EE77B18E8F522009B7954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E71EE77D18E8F522009B7954 /* OCTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTAppDelegate.h; sourceTree = "<group>"; };
-		E71EE77E18E8F522009B7954 /* OCTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTAppDelegate.m; sourceTree = "<group>"; };
-		E71EE78118E8F522009B7954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		E71EE78318E8F522009B7954 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E71EE78918E8F522009B7954 /* OctoStarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctoStarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E71EE78A18E8F522009B7954 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E71EE79118E8F522009B7954 /* OctoStarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctoStarTests-Info.plist"; sourceTree = "<group>"; };
-		E71EE79318E8F522009B7954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E71EE79518E8F522009B7954 /* OctoStarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctoStarTests.m; sourceTree = "<group>"; };
-		E71EE79F18E8FA20009B7954 /* OCTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTLoginViewController.h; sourceTree = "<group>"; };
-		E71EE7A018E8FA20009B7954 /* OCTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTLoginViewController.m; sourceTree = "<group>"; };
-		E71EE7A118E8FA20009B7954 /* OCTLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCTLoginViewController.xib; sourceTree = "<group>"; };
-		E78E9594197DDD1300C43F29 /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
-		E7FB268318EB265100F5DD0A /* SGZGitHubClientService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGZGitHubClientService.h; sourceTree = "<group>"; };
-		E7FB268418EB265100F5DD0A /* SGZGitHubClientService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGZGitHubClientService.m; sourceTree = "<group>"; };
-		E7FB268B18EBBA5200F5DD0A /* SGZGitHubAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGZGitHubAccountViewController.h; sourceTree = "<group>"; };
-		E7FB268C18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGZGitHubAccountViewController.m; sourceTree = "<group>"; };
-		E7FB268D18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGZGitHubAccountViewController.xib; sourceTree = "<group>"; };
-		E7FB269018EBC8CE00F5DD0A /* OctoStar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OctoStar.entitlements; sourceTree = "<group>"; };
-		E7FB269218EC669300F5DD0A /* SGZGitHubUserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGZGitHubUserViewModel.h; sourceTree = "<group>"; };
-		E7FB269318EC669300F5DD0A /* SGZGitHubUserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGZGitHubUserViewModel.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		E71EE76518E8F522009B7954 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E71EE76C18E8F522009B7954 /* Cocoa.framework in Frameworks */,
-				06838E60561046638AC23715 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E71EE78618E8F522009B7954 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E71EE78C18E8F522009B7954 /* Cocoa.framework in Frameworks */,
-				E71EE78B18E8F522009B7954 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		E71EE75F18E8F522009B7954 = {
-			isa = PBXGroup;
-			children = (
-				E71EE77118E8F522009B7954 /* OctoStar */,
-				E71EE78F18E8F522009B7954 /* OctoStarTests */,
-				E71EE76A18E8F522009B7954 /* Frameworks */,
-				E71EE76918E8F522009B7954 /* Products */,
-				4998A4DE5C934822B627C7A8 /* Pods.xcconfig */,
-			);
-			sourceTree = "<group>";
-		};
-		E71EE76918E8F522009B7954 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E71EE76818E8F522009B7954 /* OctoStar.app */,
-				E71EE78918E8F522009B7954 /* OctoStarTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E71EE76A18E8F522009B7954 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E71EE76B18E8F522009B7954 /* Cocoa.framework */,
-				E71EE78A18E8F522009B7954 /* XCTest.framework */,
-				E71EE76D18E8F522009B7954 /* Other Frameworks */,
-				33B45D3D4CA54B6E9B10C612 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E71EE76D18E8F522009B7954 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E71EE76E18E8F522009B7954 /* AppKit.framework */,
-				E71EE76F18E8F522009B7954 /* CoreData.framework */,
-				E71EE77018E8F522009B7954 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		E71EE77118E8F522009B7954 /* OctoStar */ = {
-			isa = PBXGroup;
-			children = (
-				E7FB269118EC667400F5DD0A /* ViewModel */,
-				E7FB269018EBC8CE00F5DD0A /* OctoStar.entitlements */,
-				E7FB268218EB261300F5DD0A /* Services */,
-				E71EE7A418E8FA2D009B7954 /* UI */,
-				E71EE77D18E8F522009B7954 /* OCTAppDelegate.h */,
-				E71EE77E18E8F522009B7954 /* OCTAppDelegate.m */,
-				E71EE78018E8F522009B7954 /* MainMenu.xib */,
-				E71EE78318E8F522009B7954 /* Images.xcassets */,
-				E71EE77218E8F522009B7954 /* Supporting Files */,
-			);
-			path = OctoStar;
-			sourceTree = "<group>";
-		};
-		E71EE77218E8F522009B7954 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E71EE77318E8F522009B7954 /* OctoStar-Info.plist */,
-				E71EE77418E8F522009B7954 /* InfoPlist.strings */,
-				E71EE77718E8F522009B7954 /* main.m */,
-				E71EE77918E8F522009B7954 /* OctoStar-Prefix.pch */,
-				E71EE77A18E8F522009B7954 /* Credits.rtf */,
-				E78E9594197DDD1300C43F29 /* keys.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E71EE78F18E8F522009B7954 /* OctoStarTests */ = {
-			isa = PBXGroup;
-			children = (
-				E71EE79518E8F522009B7954 /* OctoStarTests.m */,
-				E71EE79018E8F522009B7954 /* Supporting Files */,
-			);
-			path = OctoStarTests;
-			sourceTree = "<group>";
-		};
-		E71EE79018E8F522009B7954 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E71EE79118E8F522009B7954 /* OctoStarTests-Info.plist */,
-				E71EE79218E8F522009B7954 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E71EE7A418E8FA2D009B7954 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				E71EE79F18E8FA20009B7954 /* OCTLoginViewController.h */,
-				E71EE7A018E8FA20009B7954 /* OCTLoginViewController.m */,
-				E71EE7A118E8FA20009B7954 /* OCTLoginViewController.xib */,
-				E7FB268B18EBBA5200F5DD0A /* SGZGitHubAccountViewController.h */,
-				E7FB268C18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m */,
-				E7FB268D18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		E7FB268218EB261300F5DD0A /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				E7FB268318EB265100F5DD0A /* SGZGitHubClientService.h */,
-				E7FB268418EB265100F5DD0A /* SGZGitHubClientService.m */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		E7FB269118EC667400F5DD0A /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				E7FB269218EC669300F5DD0A /* SGZGitHubUserViewModel.h */,
-				E7FB269318EC669300F5DD0A /* SGZGitHubUserViewModel.m */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		E71EE76718E8F522009B7954 /* OctoStar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E71EE79918E8F522009B7954 /* Build configuration list for PBXNativeTarget "OctoStar" */;
-			buildPhases = (
-				D96C18F8888744AF9F005378 /* Check Pods Manifest.lock */,
-				E71EE76418E8F522009B7954 /* Sources */,
-				E71EE76518E8F522009B7954 /* Frameworks */,
-				E71EE76618E8F522009B7954 /* Resources */,
-				F6C1E0E5EB4549309CBA677B /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OctoStar;
-			productName = OctoStar;
-			productReference = E71EE76818E8F522009B7954 /* OctoStar.app */;
-			productType = "com.apple.product-type.application";
-		};
-		E71EE78818E8F522009B7954 /* OctoStarTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E71EE79C18E8F522009B7954 /* Build configuration list for PBXNativeTarget "OctoStarTests" */;
-			buildPhases = (
-				E71EE78518E8F522009B7954 /* Sources */,
-				E71EE78618E8F522009B7954 /* Frameworks */,
-				E71EE78718E8F522009B7954 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E71EE78E18E8F522009B7954 /* PBXTargetDependency */,
-			);
-			name = OctoStarTests;
-			productName = OctoStarTests;
-			productReference = E71EE78918E8F522009B7954 /* OctoStarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		E71EE76018E8F522009B7954 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = SGZ;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Fabián Cañas";
-				TargetAttributes = {
-					E71EE76718E8F522009B7954 = {
-						DevelopmentTeam = AXL96AEQK3;
-						SystemCapabilities = {
-							com.apple.Keychain = {
-								enabled = 1;
-							};
-							com.apple.Sandbox = {
-								enabled = 1;
-							};
-						};
-					};
-					E71EE78818E8F522009B7954 = {
-						TestTargetID = E71EE76718E8F522009B7954;
-					};
-				};
-			};
-			buildConfigurationList = E71EE76318E8F522009B7954 /* Build configuration list for PBXProject "OctoStar" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = E71EE75F18E8F522009B7954;
-			productRefGroup = E71EE76918E8F522009B7954 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				E71EE76718E8F522009B7954 /* OctoStar */,
-				E71EE78818E8F522009B7954 /* OctoStarTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		E71EE76618E8F522009B7954 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E78E9595197DDD1300C43F29 /* keys.plist in Resources */,
-				E7FB268F18EBBA5200F5DD0A /* SGZGitHubAccountViewController.xib in Resources */,
-				E71EE77618E8F522009B7954 /* InfoPlist.strings in Resources */,
-				E71EE78418E8F522009B7954 /* Images.xcassets in Resources */,
-				E71EE77C18E8F522009B7954 /* Credits.rtf in Resources */,
-				E71EE78218E8F522009B7954 /* MainMenu.xib in Resources */,
-				E71EE7A318E8FA20009B7954 /* OCTLoginViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E71EE78718E8F522009B7954 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E71EE79418E8F522009B7954 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D96C18F8888744AF9F005378 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F6C1E0E5EB4549309CBA677B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		E71EE76418E8F522009B7954 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7FB268518EB265100F5DD0A /* SGZGitHubClientService.m in Sources */,
-				E71EE77818E8F522009B7954 /* main.m in Sources */,
-				E71EE77F18E8F522009B7954 /* OCTAppDelegate.m in Sources */,
-				E7FB269418EC669300F5DD0A /* SGZGitHubUserViewModel.m in Sources */,
-				E71EE7A218E8FA20009B7954 /* OCTLoginViewController.m in Sources */,
-				E7FB268E18EBBA5200F5DD0A /* SGZGitHubAccountViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E71EE78518E8F522009B7954 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E71EE79618E8F522009B7954 /* OctoStarTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E71EE78E18E8F522009B7954 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E71EE76718E8F522009B7954 /* OctoStar */;
-			targetProxy = E71EE78D18E8F522009B7954 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E71EE77418E8F522009B7954 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E71EE77518E8F522009B7954 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E71EE77A18E8F522009B7954 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E71EE77B18E8F522009B7954 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		E71EE78018E8F522009B7954 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E71EE78118E8F522009B7954 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		E71EE79218E8F522009B7954 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E71EE79318E8F522009B7954 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		E71EE79718E8F522009B7954 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		E71EE79818E8F522009B7954 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		E71EE79A18E8F522009B7954 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4998A4DE5C934822B627C7A8 /* Pods.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = OctoStar/OctoStar.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OctoStar/OctoStar-Prefix.pch";
-				INFOPLIST_FILE = "OctoStar/OctoStar-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		E71EE79B18E8F522009B7954 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4998A4DE5C934822B627C7A8 /* Pods.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = OctoStar/OctoStar.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OctoStar/OctoStar-Prefix.pch";
-				INFOPLIST_FILE = "OctoStar/OctoStar-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		E71EE79D18E8F522009B7954 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OctoStar.app/Contents/MacOS/OctoStar";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OctoStar/OctoStar-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "OctoStarTests/OctoStarTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		E71EE79E18E8F522009B7954 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OctoStar.app/Contents/MacOS/OctoStar";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OctoStar/OctoStar-Prefix.pch";
-				INFOPLIST_FILE = "OctoStarTests/OctoStarTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		E71EE76318E8F522009B7954 /* Build configuration list for PBXProject "OctoStar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E71EE79718E8F522009B7954 /* Debug */,
-				E71EE79818E8F522009B7954 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E71EE79918E8F522009B7954 /* Build configuration list for PBXNativeTarget "OctoStar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E71EE79A18E8F522009B7954 /* Debug */,
-				E71EE79B18E8F522009B7954 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E71EE79C18E8F522009B7954 /* Build configuration list for PBXNativeTarget "OctoStarTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E71EE79D18E8F522009B7954 /* Debug */,
-				E71EE79E18E8F522009B7954 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = E71EE76018E8F522009B7954 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>06838E60561046638AC23715</key>
+		<dict>
+			<key>fileRef</key>
+			<string>33B45D3D4CA54B6E9B10C612</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1EC6143452D941A8C63D141C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>33B45D3D4CA54B6E9B10C612</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D02442D9E9E4E0C9ED0F27CA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E08B0E9A058B453C385AA737</string>
+				<string>1EC6143452D941A8C63D141C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D96C18F8888744AF9F005378</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E08B0E9A058B453C385AA737</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE75F18E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE77118E8F522009B7954</string>
+				<string>E71EE78F18E8F522009B7954</string>
+				<string>E71EE76A18E8F522009B7954</string>
+				<string>E71EE76918E8F522009B7954</string>
+				<string>D02442D9E9E4E0C9ED0F27CA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE76018E8F522009B7954</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>SGZ</string>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Fabi&#225;n Ca&#241;as</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>E71EE76718E8F522009B7954</key>
+					<dict>
+						<key>DevelopmentTeam</key>
+						<string>AXL96AEQK3</string>
+						<key>SystemCapabilities</key>
+						<dict>
+							<key>com.apple.Keychain</key>
+							<dict>
+								<key>enabled</key>
+								<string>1</string>
+							</dict>
+							<key>com.apple.Sandbox</key>
+							<dict>
+								<key>enabled</key>
+								<string>1</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>E71EE78818E8F522009B7954</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>E71EE76718E8F522009B7954</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>E71EE76318E8F522009B7954</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>E71EE75F18E8F522009B7954</string>
+			<key>productRefGroup</key>
+			<string>E71EE76918E8F522009B7954</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>E71EE76718E8F522009B7954</string>
+				<string>E71EE78818E8F522009B7954</string>
+			</array>
+		</dict>
+		<key>E71EE76318E8F522009B7954</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E71EE79718E8F522009B7954</string>
+				<string>E71EE79818E8F522009B7954</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E71EE76418E8F522009B7954</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E7FB268518EB265100F5DD0A</string>
+				<string>E71EE77818E8F522009B7954</string>
+				<string>E71EE77F18E8F522009B7954</string>
+				<string>E7FB269418EC669300F5DD0A</string>
+				<string>E71EE7A218E8FA20009B7954</string>
+				<string>E7FB268E18EBBA5200F5DD0A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E71EE76518E8F522009B7954</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E71EE76C18E8F522009B7954</string>
+				<string>06838E60561046638AC23715</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E71EE76618E8F522009B7954</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E78E9595197DDD1300C43F29</string>
+				<string>E7FB268F18EBBA5200F5DD0A</string>
+				<string>E71EE77618E8F522009B7954</string>
+				<string>E71EE78418E8F522009B7954</string>
+				<string>E71EE77C18E8F522009B7954</string>
+				<string>E71EE78218E8F522009B7954</string>
+				<string>E71EE7A318E8FA20009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E71EE76718E8F522009B7954</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>E71EE79918E8F522009B7954</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D96C18F8888744AF9F005378</string>
+				<string>E71EE76418E8F522009B7954</string>
+				<string>E71EE76518E8F522009B7954</string>
+				<string>E71EE76618E8F522009B7954</string>
+				<string>F6C1E0E5EB4549309CBA677B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>OctoStar</string>
+			<key>productName</key>
+			<string>OctoStar</string>
+			<key>productReference</key>
+			<string>E71EE76818E8F522009B7954</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>E71EE76818E8F522009B7954</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>OctoStar.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E71EE76918E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE76818E8F522009B7954</string>
+				<string>E71EE78918E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE76A18E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE76B18E8F522009B7954</string>
+				<string>E71EE78A18E8F522009B7954</string>
+				<string>E71EE76D18E8F522009B7954</string>
+				<string>33B45D3D4CA54B6E9B10C612</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE76B18E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Cocoa.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Cocoa.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>E71EE76C18E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE76B18E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE76D18E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE76E18E8F522009B7954</string>
+				<string>E71EE76F18E8F522009B7954</string>
+				<string>E71EE77018E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Other Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE76E18E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/AppKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>E71EE76F18E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreData.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreData.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>E71EE77018E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>E71EE77118E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E7FB269118EC667400F5DD0A</string>
+				<string>E7FB269018EBC8CE00F5DD0A</string>
+				<string>E7FB268218EB261300F5DD0A</string>
+				<string>E71EE7A418E8FA2D009B7954</string>
+				<string>E71EE77D18E8F522009B7954</string>
+				<string>E71EE77E18E8F522009B7954</string>
+				<string>E71EE78018E8F522009B7954</string>
+				<string>E71EE78318E8F522009B7954</string>
+				<string>E71EE77218E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>OctoStar</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77218E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE77318E8F522009B7954</string>
+				<string>E71EE77418E8F522009B7954</string>
+				<string>E71EE77718E8F522009B7954</string>
+				<string>E71EE77918E8F522009B7954</string>
+				<string>E71EE77A18E8F522009B7954</string>
+				<string>E78E9594197DDD1300C43F29</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77318E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>OctoStar-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77418E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE77518E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77518E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77618E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE77418E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE77718E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77818E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE77718E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE77918E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OctoStar-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77A18E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE77B18E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Credits.rtf</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77B18E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.rtf</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/Credits.rtf</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77C18E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE77A18E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE77D18E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OCTAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77E18E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OCTAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE77F18E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE77E18E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE78018E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE78118E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>MainMenu.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE78118E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/MainMenu.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE78218E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE78018E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE78318E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE78418E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE78318E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE78518E8F522009B7954</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E71EE79618E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E71EE78618E8F522009B7954</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E71EE78C18E8F522009B7954</string>
+				<string>E71EE78B18E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E71EE78718E8F522009B7954</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E71EE79418E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E71EE78818E8F522009B7954</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>E71EE79C18E8F522009B7954</string>
+			<key>buildPhases</key>
+			<array>
+				<string>E71EE78518E8F522009B7954</string>
+				<string>E71EE78618E8F522009B7954</string>
+				<string>E71EE78718E8F522009B7954</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>E71EE78E18E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>OctoStarTests</string>
+			<key>productName</key>
+			<string>OctoStarTests</string>
+			<key>productReference</key>
+			<string>E71EE78918E8F522009B7954</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>E71EE78918E8F522009B7954</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>OctoStarTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E71EE78A18E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>E71EE78B18E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE78A18E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE78C18E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE76B18E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE78D18E8F522009B7954</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>E71EE76018E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>E71EE76718E8F522009B7954</string>
+			<key>remoteInfo</key>
+			<string>OctoStar</string>
+		</dict>
+		<key>E71EE78E18E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>E71EE76718E8F522009B7954</string>
+			<key>targetProxy</key>
+			<string>E71EE78D18E8F522009B7954</string>
+		</dict>
+		<key>E71EE78F18E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE79518E8F522009B7954</string>
+				<string>E71EE79018E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>OctoStarTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE79018E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE79118E8F522009B7954</string>
+				<string>E71EE79218E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE79118E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>OctoStarTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE79218E8F522009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE79318E8F522009B7954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE79318E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE79418E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE79218E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE79518E8F522009B7954</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OctoStarTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE79618E8F522009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE79518E8F522009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE79718E8F522009B7954</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.9</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>E71EE79818E8F522009B7954</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.9</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E71EE79918E8F522009B7954</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E71EE79A18E8F522009B7954</string>
+				<string>E71EE79B18E8F522009B7954</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E71EE79A18E8F522009B7954</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E08B0E9A058B453C385AA737</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_ENTITLEMENTS</key>
+				<string>OctoStar/OctoStar.entitlements</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>Mac Developer</string>
+				<key>CODE_SIGN_IDENTITY[sdk=macosx*]</key>
+				<string>Mac Developer</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>OctoStar/OctoStar-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>OctoStar/OctoStar-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>E71EE79B18E8F522009B7954</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>1EC6143452D941A8C63D141C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_ENTITLEMENTS</key>
+				<string>OctoStar/OctoStar.entitlements</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>Mac Developer</string>
+				<key>CODE_SIGN_IDENTITY[sdk=macosx*]</key>
+				<string>Mac Developer</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>OctoStar/OctoStar-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>OctoStar/OctoStar-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E71EE79C18E8F522009B7954</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E71EE79D18E8F522009B7954</string>
+				<string>E71EE79E18E8F522009B7954</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E71EE79D18E8F522009B7954</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/OctoStar.app/Contents/MacOS/OctoStar</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>OctoStar/OctoStar-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>OctoStarTests/OctoStarTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>E71EE79E18E8F522009B7954</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/OctoStar.app/Contents/MacOS/OctoStar</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>OctoStar/OctoStar-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>OctoStarTests/OctoStarTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E71EE79F18E8FA20009B7954</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OCTLoginViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE7A018E8FA20009B7954</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OCTLoginViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE7A118E8FA20009B7954</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>OCTLoginViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E71EE7A218E8FA20009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE7A018E8FA20009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE7A318E8FA20009B7954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E71EE7A118E8FA20009B7954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E71EE7A418E8FA2D009B7954</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E71EE79F18E8FA20009B7954</string>
+				<string>E71EE7A018E8FA20009B7954</string>
+				<string>E71EE7A118E8FA20009B7954</string>
+				<string>E7FB268B18EBBA5200F5DD0A</string>
+				<string>E7FB268C18EBBA5200F5DD0A</string>
+				<string>E7FB268D18EBBA5200F5DD0A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>UI</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E78E9594197DDD1300C43F29</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>keys.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E78E9595197DDD1300C43F29</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E78E9594197DDD1300C43F29</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E7FB268218EB261300F5DD0A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E7FB268318EB265100F5DD0A</string>
+				<string>E7FB268418EB265100F5DD0A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Services</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB268318EB265100F5DD0A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SGZGitHubClientService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB268418EB265100F5DD0A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SGZGitHubClientService.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB268518EB265100F5DD0A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E7FB268418EB265100F5DD0A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E7FB268B18EBBA5200F5DD0A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SGZGitHubAccountViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB268C18EBBA5200F5DD0A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SGZGitHubAccountViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB268D18EBBA5200F5DD0A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>SGZGitHubAccountViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB268E18EBBA5200F5DD0A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E7FB268C18EBBA5200F5DD0A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E7FB268F18EBBA5200F5DD0A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E7FB268D18EBBA5200F5DD0A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E7FB269018EBC8CE00F5DD0A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xml</string>
+			<key>path</key>
+			<string>OctoStar.entitlements</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB269118EC667400F5DD0A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E7FB269218EC669300F5DD0A</string>
+				<string>E7FB269318EC669300F5DD0A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>ViewModel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB269218EC669300F5DD0A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SGZGitHubUserViewModel.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB269318EC669300F5DD0A</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SGZGitHubUserViewModel.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7FB269418EC669300F5DD0A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E7FB269318EC669300F5DD0A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F6C1E0E5EB4549309CBA677B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>E71EE76018E8F522009B7954</string>
+</dict>
+</plist>
